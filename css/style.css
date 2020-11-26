@@ -1,0 +1,1049 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/ofont.ru_Montserrat.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Montserrat-Light";
+    src: url("../fonts/Montserrat-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "RobotoSlab";
+    src: url("../fonts/9757.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+   }
+
+
+/*
+font-family: "Montserrat", sans-serif;
+font-family: "Montserrat_Light", sans-serif;
+font-family: "Montserrat-Regular", sans-serif;
+font-family: "RobotoSlab", sans-serif;
+font-family: "Roboto-Regular" , sans-serif;
+ */
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+/*Header*/
+.header {
+    width: 1600px;
+    height: 770px;
+    margin: 0 auto;
+    background: url(../img/image3.jpg) no-repeat;
+    background-size: 100%;
+}
+
+.menu__desktop ul{
+    margin: 0 auto;;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 55px;
+    color: #ffffff;
+}
+.menu__mobile{
+    display: none ;
+ }
+
+.menu__item a {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 43px;
+}
+
+
+.header__content {
+    text-align: center;
+}
+
+.header__title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: #f8f8f8;
+    padding-top: 215px;
+    margin: 0 auto 20px;
+}
+
+.header__text {
+    font-family: "RobotoSlab", sans-serif;
+    font-size: 20px;
+    text-transform: none;
+    color: #ffffff;
+    padding-top: 20px;
+}
+
+.header__button {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+    width: 188px;
+    height: 57px;
+    border: 3px solid #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 206px;
+}
+
+/*О сервисе*/
+
+.services {
+    width: 1600px;
+    height: 550px;
+    margin: 0 auto;
+}
+
+.services__title {
+    text-align: center;
+}
+
+.services__title-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #555555; 
+    padding-top: 65px;
+}
+
+.services__text {
+    font-family: "RobotoSlab", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #555555;
+}
+
+.services__program {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 85px;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.services__item {
+    text-align: center;
+}
+
+.services__item-img {
+    padding-bottom: 20px;
+}
+
+.services__item-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #555555;
+    margin: 0;
+    margin-bottom: 20px; 
+}
+
+.services__item-text {
+    font-family: "RobotoSlab", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #555555;
+    margin: 0;
+    margin-bottom: 45px;
+}
+
+/*Дополнительная информация*/
+.posts {
+    padding-top: 50px;
+    width: 1600px;
+    height: 1050px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #f8f8f8;
+}
+
+.posts__title {  
+    font-family:"Montserrat", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #555555;
+}
+
+.posts__title-text {
+    font-family:"RobotoSlab", sans-serif;
+    padding-top: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #555555;
+}
+
+.information__information{
+    padding-top: 50px;
+    justify-content: space-around;
+    columns: 2;
+}
+
+.information__information2{
+    padding-top: 50px;
+    justify-content: space-around;
+    columns: 2;
+}
+
+.information__block li {
+    list-style: none;
+}
+
+.inform__img1 {
+    border: 2px solid black;
+}
+
+.block1-information {
+    margin-right: 100px;   
+}
+
+.block1-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.block1-text {
+    font-family: "RobotoSlab", sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #777777;
+    text-align: center;
+}
+
+.block1-text-iformation {
+    font-family: "RobotoSlab", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #555555;
+    text-align: justify;
+}
+
+.inform__img2 {
+    width:300px;
+    border: 2px solid black;
+}
+
+.inform{
+    font-family: "RobotoSlab", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #555555;
+    text-align: justify;
+}
+
+.block2-information {
+    margin-right: 100px;  
+}
+
+.block2-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.block2-text {
+    font-family: "RobotoSlab", sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #555555;
+    text-align: center;
+}
+
+.block2-text-iformation {
+    font-family: "RobotoSlab", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #555555;
+    text-align: justify;
+}
+
+/*О программах*/
+.about__train {
+    width: 1600px;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 65px;
+}
+.about__train-title {
+    text-align: center;
+}
+.train-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #555555;
+}
+
+.train-title-text {
+    font-family: "RobotoSlab", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #555555;
+    padding-bottom: 10px;
+}
+
+.about__train-information {
+    columns: 100px 2;
+}
+
+.train-information {
+    font-family: "RobotoSlab", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #555555;
+    justify-content: space-around;
+    list-style: none;  
+    margin-right: 40px;
+    text-align: justify;
+}
+
+.train__program {
+    margin-right: 40px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+    list-style: none;
+}
+
+.train_program li{
+    margin-right: 5px;
+}
+
+.train-inform{
+    padding-top:15px;
+}
+
+.about__train-program {
+    text-align: center;
+    justify-content: center;
+    margin-right:7px;
+}
+
+.train-program-img {
+    width:300px;
+}
+
+.train-program-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #555555;
+}
+
+.train-program-text {
+    font-family: "RobotoSlab", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #555555;
+}
+.train-program-pain{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #555555;
+    padding-bottom: 40px;
+}
+
+ /* Slideshow container */
+ .slideshow__container{
+     width: 1600px;
+     height: auto;
+     margin: 0 auto;
+     background-color: #f8f8f8;
+ }
+
+ .slideshow-title-text{
+    padding-top: 80px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: black; 
+    padding-bottom: 20px;
+ }
+
+ .slideshow-container {
+    border: 20px solid #f8f8f8;
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: #181717;
+    background-color: #999999;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  
+  /* Caption text */
+  .text {
+    font-family: "RobotoSlab", sans-serif;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #262626;
+    font-size: 18px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active,
+  .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {
+      opacity: .4
+    }
+    to {
+      opacity: 1
+    }
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: .4
+    }
+    to {
+      opacity: 1
+    }
+  }
+
+
+.chto-to {
+    padding-top: 50px;
+    width: 100 px;
+    height: 800 px;
+    text-align: center;
+}
+.cht-to-title {
+    font-family: "RobotoSlab", sans-serif;
+    font-size: 20px;
+    line-height: 44px;
+    font-weight: 400;
+    color: black;
+}
+
+.smotret {
+    font-family: "RobotoSlab", sans-serif;
+    font-size: 18px;
+    line-height: 44px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: black;
+    width: 200px;
+    height: 50px;
+    border: 2px solid #ffffff;
+    border-radius: 2px;
+}
+
+/*Результаты*/
+.our__results {
+    width: 1600px;;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.results-img{
+    border: 2px solid black; 
+    padding: 15px; 
+    background: #666; 
+    margin-right: 20px; 
+    margin-left: 2px; 
+    margin-bottom: 70px; 
+    padding-top: 10px;
+    list-style: none;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+}
+
+.container__results ul{
+    justify-content: space-around;
+    display: flex;
+    text-align: center;
+    list-style: none;
+}
+
+.results-title-text{
+    padding-top: 90px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #555555;  
+    padding-bottom: 10px; 
+}
+
+.results-text{
+    padding-top: 10px;
+    font-family: "RobotoSlab", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #555555;   
+    padding-bottom: 40px;
+}
+
+.results-text-results{
+    text-decoration: underline;
+    font-family: "RobotoSlab", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;   
+    font-style: inherit;
+}
+
+/*Заказать курс*/
+.contact {
+    width: 1600px;
+    background-color: #f8f8f8;
+    height: 1000px;
+    margin: 0 auto;
+}
+.block__head {
+    text-align: center;
+}
+.block__title {
+    font-family: "Montserrat", sans-serif;;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #555555;
+}
+.block__text {
+    font-family: "RobotoSlab", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #555555;
+}
+
+.contact .block__head .block__title {
+    padding-top: 95px;
+}
+
+.contact__icon-box {
+    display: flex;
+    justify-content: center;
+    max-width: 570px;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+.contact__item {
+    text-align: center;
+    width: 130px;
+}
+
+.contact__item ul{
+    display: inline;
+}
+.contact__pp li{
+    display: inline;
+}
+.contact__item i {
+    color: #323232;
+    font-size: 21px;
+}
+
+.contact__pp {
+    margin-right: 20px;
+    text-align: center;
+    list-style: none;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.contact__text{
+    margin-bottom: 12px;
+}
+
+.contact__text a {
+    font-family: "RobotoSlab", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #898888;
+    text-decoration: none;
+    transition: 0,3s;
+    text-align: center;
+}
+
+.contact__text a:hover {
+    color:#4b4b4b;
+    text-decoration: underline;
+}
+
+.contact__form {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    max-width: 770px;
+    margin: 0 auto;
+}
+
+.contact__form .contact__button{
+    cursor: pointer;
+    padding: 0;
+    outline: none;
+    border: none;
+    letter-spacing: 0.02em;
+    background-color: #161616;
+    font-family: "RobotoSlab", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color:white;
+}
+
+.contact__form input{
+    height: 52px;
+    padding: 20px;
+    text-align: center;
+    font-family: "RobotoSlab", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #898888;
+    border: 1px solid #999999;
+}
+
+.contact__name {
+    margin-bottom: 20px;
+}
+.contact__email {
+    margin-bottom: 20px;
+}
+.contact__number {
+    margin-bottom: 20px;
+}
+.program__value{
+    margin-bottom: 20px;
+}
+
+.program__pain{
+    margin-bottom: 18px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type='number']{
+    -moz-appearance: textfield;
+}
+.contact__textarea {
+    padding: 22px;
+    margin-bottom: 21px;
+    height: 195px;
+    resize: none;
+    font-family: "RobotoSlab", sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #898888;
+    border: 1px solid #999999;
+}
+
+.contact__button {
+    font-family: "RobotoSlab", sans-serif;
+    font-size: 0px;
+    line-height: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #555555;
+}
+
+/*Footer*/
+.footer__container{
+    border:  #555555;
+    text-align: center;
+    width: 1600px;
+    height: auto;
+    margin: 0 auto;
+    color: #5555;  
+}
+
+.footer__text {
+    font-family: "RobotoSlab", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color:  #555555;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.contact__with__Lib{
+    font-family: "RobotoSlab", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #555555;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.contact__lib ul{
+    text-align: center;
+}
+.contact__lib li{
+    margin-right: 20px;
+    margin-left: 0px;
+    display: inline;
+    text-align: center;
+    list-style: none;
+    justify-content: center;
+}
+.contact__vk {
+    width:30px;
+}
+
+.contact__instagram {
+    width:30px;
+}
+
+.contact__gmail {
+    width:30px;
+    margin-bottom: 0px;
+}
+
+.contact__facebook {
+    width:30px;
+}
+
+
+/*media*/
+@media 
+screen and (max-width: 769px) {
+    .header{
+        width: 768px;  
+        height: 550px;
+        background-size: 200%;
+    }
+    .menu__desktop{
+        display: none;
+    }
+    .menu__mobile{
+       display: flex ;
+    }
+
+    .header__title{
+        padding-top: 20px;
+    }
+
+   .services{
+    padding-top: 0px;
+    width: 768px; 
+    height: 500px;
+   }
+
+   .about__train{
+    padding-top: 30px;
+    width: 768px; 
+    height: auto;
+   }
+
+   .train__program{
+       display: inline;
+   }
+
+   .slideshow__container{
+    width: 768px;
+   }
+
+   .our__results{
+       width: 768px;
+       height: auto;
+   }
+
+   .results-title-text{
+       padding-top: 40px;
+   }
+
+   .container__results ul{
+       display: inline;
+   }
+   
+   .posts{
+       width: 768px;
+       height: auto;
+   }
+
+   .information__information{
+       columns: 1;
+   }
+   .block1-information{
+       margin-right: 40px;
+   }
+
+   .information__information2{
+    columns: 1;
+   }
+
+   .block2-information{
+    margin-right: 40px;
+   }
+
+   .contact{
+    width: 768px;
+    height: auto;
+   }
+
+    *{
+        box-sizing: unset;
+    }
+
+    .footer {
+        width:768px;
+        padding-top: 50px;
+    }
+
+    .footer__container{
+        width:768px;
+    }
+
+}
+
+/*media for iPhone*/
+@media screen and (max-width: 376px) {
+    .header{
+        background-image: url(../img/image3.jpg) no-repeat;
+        width: 375px;  
+        height: 750px;
+        margin: 0 auto;
+        background-size: 400%;
+    }
+
+    .menu__desktop {
+        display: none;
+    }
+
+    .menu__mobile{
+       display: flex;
+    }
+
+    .menu__mobile ul{ 
+        margin: 0 auto;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;   
+    }
+    
+    .menu__burger {
+        display: block;
+        overflow: hidden;
+        cursor: pointer;
+        margin: 0;
+        padding: 0;
+        width: 30px;
+        height: 3px;
+        font-size: 0;
+        background-color: rgb(255, 255, 255);
+        border-radius: 5px;
+        position: relative;
+    }
+
+   .services{
+    padding-top: 0px;
+    width: 375px; 
+    height: auto;
+    margin-left: 0px;
+   }
+
+   .about__train{
+    padding-top: 30px;
+    width: 375px; 
+    height: auto;
+   }
+   .train-information li{
+       display: inline;
+       margin-left: 10px;
+   }
+
+   .train__program{
+       display: inline;
+   }
+
+   .our__results{
+       width: 375px;
+       height: auto;
+   }
+
+   .results-title-text{
+       padding-top: 40px;
+   }
+
+   .container__results ul{
+       display: inline;
+   }
+   
+   .posts{
+       width: 375px;
+       height: auto;
+   }
+
+   .information__information{
+       columns: 1;
+   }
+   .inform__img1{
+       width: 300px;
+       margin-right: 40px;
+   }
+   .block1-information{
+       margin-right: 40px;
+   }
+   .inform__img2{
+    margin-right: 55px;
+}
+
+   .information__information2{
+    columns: 1;
+   }
+
+   .block2-information{
+    margin-right: 45px;
+   }
+   .slideshow__container{
+    width: 375px;
+   }
+   .contact{
+    width: 375px;
+    height: auto;
+   }
+
+    *{
+        box-sizing: unset;
+    }
+
+    .footer {
+        width:375px;
+        padding-top: 50px;
+    }
+    .footer__container{
+        width:375px; 
+    }
+}
